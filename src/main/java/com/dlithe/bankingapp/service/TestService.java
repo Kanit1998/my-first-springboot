@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 //Component annotations: used to mark the class/interface as BEAN
 @Component
 public interface TestService {
-    String fetchProductDetails(String productName);
+    String fetchProductDetails(String productName);// get Mapping
 
     String registerStudent(StudentDetails studentDetailsRequest);
 }
