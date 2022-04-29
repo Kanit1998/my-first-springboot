@@ -21,6 +21,7 @@ public class TestController {
     public String registerNewStudent(@RequestBody StudentDetails studentDetails){
         return testService.registerStudent(studentDetails);
     }
+
 }
 //    @GetMapping("test")
 //    public String myFirstMethod() {
